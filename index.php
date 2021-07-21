@@ -1,5 +1,5 @@
 <?php
  
- include_once("ikktara.html");
+ include_once("index.html");
 
 ?>
