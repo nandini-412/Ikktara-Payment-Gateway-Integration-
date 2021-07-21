@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Nunito",sans-serif;
+    background-image: url("images/Gardish\ me\ chamke\ vo\ ikktara.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+}
+
+.logo{
+    margin-left: 0rem;
+    border-radius: 1.5rem;
+}
+
+.texting{
+    margin-top: 40rem;
+}
+
+.blurb h2{
+    color: #001dbe;
+    font-weight: 100;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.content{
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 400;
+    color:rgb(242, 255, 57);
+}
+
+ #mainNavbar .nav-link:hover {
+        color:#ffffff;
+}
+#mainNavbar .navbar-brand {
+    color: #001dbe;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#headingGroup span{
+    color: #001dbe;
+}
+#headingGroup h1{
+   font-weight: 100;
+   font-size: 4rem;
+}
+.navbar.scrolled
+{
+    background: rgba(92, 130, 236,0.8);
+    transition: background 2s;
+}
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+     } 
+     .blurb h2{
+         font-size: 2rem;
+     } 
+}
+
+.MTR{
+    margin-top: 25%;
+}
+
+@media (max-width: 1250px){
+    #content{
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 1100px){
+    #content{
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 1000px){
+    #content{
+        margin-top: 60%;
+    }
+}
+
+@media (max-width: 900px){
+    #content{
+        margin-top: 70%;
+    }
+}
+
+@media (max-width: 700px){
+    #content{
+        margin-top: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    #content{
+        margin-top: 120%;
+    }
+}
+
+
+.button1:hover {
+    background-color: #f6f7f8;
+    color:rgb(92, 105, 221);
+    border-color: rgb(92, 105, 221);
+}
+
+.Btn{
+     
+    margin-top: 39.5%;
+    margin-left: 20%;
+    position: relative;
+}
+
+.bouncy{
+    animation :bouncy 2s infinite linear;
+    position:relative;
+    }
+
+a.button1 {
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #2A83ED;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.4em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        color: #2A83ED;
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    
+@keyframes bouncy {
+    0% {
+        top: 0em;
+    }
+    
+    40% {
+        top: 0em;
+    }
+    43% {
+        top: -0.9em;
+    }
+    46% {
+        top: 0em;
+    }
+    48% {
+        top: -0.4em;
+    }
+    50% {
+        top: 0em;
+    }
+    100% {
+        top: 0em;
+    }
+    
+}
+  
+  
